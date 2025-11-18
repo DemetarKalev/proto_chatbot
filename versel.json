@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "buildCommand": "cd Packages/Client && bun install && bun run build",
+  "outputDirectory": "Packages/Client/dist",
+  "rewrites": [
+    {
+      "source": "/api/:path*",
+      "destination": "/api/:path*"
+    }
+  ]
+}
