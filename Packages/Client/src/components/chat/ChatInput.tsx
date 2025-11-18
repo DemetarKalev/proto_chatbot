@@ -1,4 +1,3 @@
-import React from 'react';
 import { Button } from '../ui/button';
 import { FaArrowUp } from 'react-icons/fa';
 import { useForm } from 'react-hook-form';
